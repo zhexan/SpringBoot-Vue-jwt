@@ -17,3 +17,4 @@ SpringBoot3 + JWT +Scurity + RabbitMQ + Redis
 简单的限流操作
 
 一个简单的登录模板，可以在此基础上开发其他功能。
+数据库表和前端页面在分支二
