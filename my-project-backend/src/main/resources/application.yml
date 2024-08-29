@@ -1,0 +1,25 @@
+spring:
+  mail:
+    host: smtp.163.com
+    username: nvj335537@163.com
+    password: EDEUKSDOTYFZSOWD
+  rabbitmq:
+    addresses: localhost
+    username: guest
+    password: guest
+    virtual-host: /
+  security:
+    filter:
+      order: -100
+    jwt:
+      key: abcdefg
+      expire: 7
+  datasource:
+    url: jdbc:mysql://localhost:3306/springboot
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
