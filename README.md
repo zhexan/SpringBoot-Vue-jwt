@@ -1,9 +1,9 @@
 # 技术
 
-SpringBoot3 + JWT +Scurity + RabbitMQ + Redis + mybatis-plus
+SpringBoot3 + JWT + Security + RabbitMQ + Redis + mybatis-plus
 # 功能
 
-登录
+登录操作
 
 退出登录
 
