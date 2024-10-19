@@ -4,7 +4,7 @@ spring:
     username: nvj335537@163.com
     password: EDEUKSDOTYFZSOWD
   rabbitmq:
-    addresses: localhost
+    addresses: 172.19.190.157
     username: guest
     password: guest
     virtual-host: /
@@ -15,14 +15,18 @@ spring:
       key: abcdefg
       expire: 7
   datasource:
-    url: jdbc:mysql://localhost:3306/springboot
+    url: jdbc:mysql://172.19.190.157:3306/springboot
     username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
   minio:
-    endpoint: http://localhost:9000
+    endpoint: http://172.19.190.157:9000
     username: minio
     password: password
+
+  data:
+    redis:
+      host: 172.19.190.157
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
