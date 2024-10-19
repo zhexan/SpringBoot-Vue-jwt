@@ -1,5 +1,6 @@
 package com.example.myprojectbackend.entity.vo.response;
 
+import com.baomidou.mybatisplus.annotation.TableField;
 import lombok.Data;
 
 @Data

@@ -62,7 +62,7 @@ function userLogout() {
             <div>{{ store.user.email }}</div>
           </div>
           <el-dropdown>
-            <el-avatar :src="store.avatarUrl"/>
+            <el-avatar src="https://cube.elemecdn.com/0/88/03b0d39583f48206768a7534e55bcpng.png"/>
             <template #dropdown>
               <el-dropdown-item>
                 <el-icon><Operation/></el-icon>
@@ -94,7 +94,7 @@ function userLogout() {
                   </el-icon>
                   <span><b>校园论坛</b></span>
                 </template>
-                <el-menu-item index="/index">
+                <el-menu-item index=1-1>
                   <template #title>
                     <el-icon>
                       <ChatDotSquare/>
