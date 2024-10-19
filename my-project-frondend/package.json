@@ -12,14 +12,16 @@
     "@vueuse/core": "^10.3.0",
     "axios": "^1.4.0",
     "element-plus": "^2.3.9",
+<<<<<<< HEAD
     "my-project-frontend": "file:",
     "pinia": "^2.2.2",
+=======
+>>>>>>> parent of 5adba83 (头像上传操作完成)
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
-    "less": "^4.2.0",
     "unplugin-auto-import": "^0.15.2",
     "unplugin-vue-components": "^0.24.1",
     "vite": "^4.4.6"

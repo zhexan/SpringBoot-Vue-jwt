@@ -19,6 +19,7 @@ spring:
     username: root
     password: 123456
     driver-class-name: com.mysql.cj.jdbc.Driver
+<<<<<<< HEAD
   minio:
     endpoint: http://172.19.190.157:9000
     username: minio
@@ -27,6 +28,8 @@ spring:
   data:
     redis:
       host: 172.19.190.157
+=======
+>>>>>>> parent of 5adba83 (头像上传操作完成)
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
